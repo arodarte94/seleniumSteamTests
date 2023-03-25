@@ -1,0 +1,21 @@
+{
+  "name": "steamtests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js"
+  },
+  "mocha": {
+  "timeout": 50000
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.8.2",
+    "webdriver-manager": "^12.1.9"
+  }
+}
